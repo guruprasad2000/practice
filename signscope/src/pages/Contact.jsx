@@ -4,11 +4,11 @@ import { MapPin, Phone, Mail, Clock, Send, CheckCircle2 } from 'lucide-react'
 import SectionHeading from '../components/SectionHeading'
 import WhatsAppIcon from '../components/WhatsAppIcon'
 
-const WHATSAPP_URL = 'https://wa.me/96512345678?text=' + encodeURIComponent('Hi SignScope! I\'m interested in your branding solutions. Could you share more details about your services and pricing?')
+const WHATSAPP_URL = 'https://wa.me/96565831288?text=' + encodeURIComponent('Hi SignScope! I\'m interested in your branding solutions. Could you share more details about your services and pricing?')
 
 const contactInfo = [
   { icon: MapPin, title: 'Our Location', lines: ['Salmiya, Kuwait', 'Block 5, Street 12'] },
-  { icon: Phone, title: 'Phone Numbers', lines: ['+965 1234 5678', '+965 9876 5432'] },
+  { icon: Phone, title: 'Phone Numbers', lines: ['+965 6583 1288', '+965 9876 5432'] },
   { icon: Mail, title: 'Email Address', lines: ['info@signscope.com', 'quotes@signscope.com'] },
   { icon: Clock, title: 'Working Hours', lines: ['Sun–Thu: 8:00 AM – 6:00 PM', 'Fri–Sat: Closed'] },
 ]
@@ -92,7 +92,7 @@ export default function Contact() {
                 <WhatsAppIcon className="w-6 h-6 text-green-500" />
               </div>
               <h3 className="font-semibold text-secondary text-sm mb-1">WhatsApp</h3>
-              <p className="text-gray-600 text-sm">+965 1234 5678</p>
+              <p className="text-gray-600 text-sm">+965 6583 1288</p>
               <p className="text-green-500 text-xs font-medium mt-1">Chat with us</p>
             </motion.a>
           </motion.div>
@@ -150,7 +150,7 @@ export default function Contact() {
                         type="tel"
                         value={form.phone}
                         onChange={(e) => setForm({ ...form, phone: e.target.value })}
-                        placeholder="+965 1234 5678"
+                        placeholder="+965 6583 1288"
                         className="w-full px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/10 transition-all"
                       />
                     </div>

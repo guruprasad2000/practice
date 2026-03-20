@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { Layers, MapPin, Phone, Mail, ArrowRight } from 'lucide-react'
 import WhatsAppIcon from './WhatsAppIcon'
 
-const WHATSAPP_URL = 'https://wa.me/96512345678?text=' + encodeURIComponent('Hi SignScope! I\'m interested in your branding solutions. Could you share more details about your services and pricing?')
+const WHATSAPP_URL = 'https://wa.me/96565831288?text=' + encodeURIComponent('Hi SignScope! I\'m interested in your branding solutions. Could you share more details about your services and pricing?')
 
 export default function Footer() {
   return (
@@ -63,7 +63,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-primary shrink-0" />
-                <span className="text-gray-400 text-sm">+965 1234 5678</span>
+                <span className="text-gray-400 text-sm">+965 6583 1288</span>
               </li>
               <li className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-primary shrink-0" />
@@ -77,7 +77,7 @@ export default function Footer() {
                   className="flex items-center gap-2.5 group"
                 >
                   <WhatsAppIcon className="w-4 h-4 text-green-500 shrink-0" />
-                  <span className="text-gray-400 text-sm group-hover:text-green-500 transition-colors">+965 1234 5678</span>
+                  <span className="text-gray-400 text-sm group-hover:text-green-500 transition-colors">+965 6583 1288</span>
                 </a>
               </li>
             </ul>

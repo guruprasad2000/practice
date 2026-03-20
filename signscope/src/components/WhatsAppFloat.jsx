@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { X } from 'lucide-react'
 import WhatsAppIcon from './WhatsAppIcon'
 
-const WHATSAPP_NUMBER = '96512345678'
+const WHATSAPP_NUMBER = '96565831288'
 const DEFAULT_MESSAGE = 'Hi SignScope! I\'m interested in your branding solutions. Could you share more details about your services and pricing?'
 
 export default function WhatsAppFloat() {
